@@ -1,0 +1,79 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-01-17T00:30:11.247Z",
+    "end": "2018-01-17T00:30:11.262Z",
+    "duration": 15,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "bd49c6e1-e3f8-44ed-b529-3412fbd23b6c",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "d2152d73-8a95-44a0-9eb7-03f11119e288",
+        "title": "加法函数的测试",
+        "fullFile": "F:\\web\\mocha-demos\\demo01\\add.test.js",
+        "file": "\\add.test.js",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": "1 加 1 应该等于 2",
+            "fullTitle": "加法函数的测试 1 加 1 应该等于 2",
+            "timedOut": false,
+            "duration": 0,
+            "state": "passed",
+            "speed": "fast",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "expect(add(1, 1)).to.be.equal(2);",
+            "err": {},
+            "isRoot": false,
+            "uuid": "01abc587-f728-4257-aa61-8306072fd874",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "01abc587-f728-4257-aa61-8306072fd874"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 0,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}

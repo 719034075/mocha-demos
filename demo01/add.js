@@ -1,5 +1,5 @@
-function add(x, y) {
-  return x + y;
-}
+const add = function add(x, y) {
+    return x + y;
+};
 
 module.exports = add;
